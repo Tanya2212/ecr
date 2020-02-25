@@ -1,3 +1,3 @@
 FROM php:5.6-apache
-RUN	yum install httpd -y
+MAINTAINER	tanya.gulati@mykaarma.com
 COPY index.php /var/www/html/
